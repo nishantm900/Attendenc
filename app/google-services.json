@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233024070935",
+    "firebase_url": "https://attendence-register-6a6bb.firebaseio.com",
+    "project_id": "attendence-register-6a6bb",
+    "storage_bucket": "attendence-register-6a6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233024070935:android:f881c1d1adfdbc7ea84352",
+        "android_client_info": {
+          "package_name": "com.example.raj.attendenceregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233024070935-oc3evljdemfja2mje0a36gobunrgp1bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raj.attendenceregister",
+            "certificate_hash": "4e8902476520f3e70ade3d0526899ca40c8d691c"
+          }
+        },
+        {
+          "client_id": "233024070935-3934scib533vtuj0i9uff6c8vanvhgur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX7TaEXszYOvS8Owuc2rzGIyJK5mEjPQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233024070935-3934scib533vtuj0i9uff6c8vanvhgur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

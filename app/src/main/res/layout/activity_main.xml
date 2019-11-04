@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/teacherButton"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/studentButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="fn"
+        android:text="TEACHER"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/studentButton"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="41dp"
+        android:background="@color/colorPrimary"
+        android:onClick="fn"
+        android:text="STUDENT"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+
+</RelativeLayout>
